@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - KPLON MI </title>
+</head>
+<body>
+    <h1>KPLON MI</h1>
+    <h1>Inscription</h1>
+    <form id="form-inscription"> <!--<form> regroupe les champs. l'id nous permettra de le retrouver en JavaScript --> 
+    
+        <label for="nom">Nom complet</form> <!--<label> est le texte affiché et le for le relie à l'input qui a id = "nom"-->
+        <input type = "text" id="nom" name="filiere"> <!--<input type ="text" est une case où on écrit une ligne de texte-->
+
+        <label for= "filiere">Filière</label>
+        <input type = "text" id = "filiere" name="filiere">
+
+        <label for="universite">Université</label>
+        <input type="text" id="universite" name="universite">
+
+        <button type="submit">S'inscrire</button> <!-- type submit c'est  pour qu'un clic sur ce boi=utton envoie le formulaire-->
+
+    </form>
+
+    <script src="js/script.js"></script> <!--permet de charger le javascript en bas pour que le html existe déjà avant que le s cripte ne s'exécute-->
+</body>
+</html>
