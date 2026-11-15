@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;/*on applique la police arial puis sans serif dans le cas où arial n'est pas trouvé*/
+    background-color: #f4f6f8; /*la couleur de fond de la page*/
+    margin:0px; /*l'espace autour du corps de la page à 0. donc le corps de la page prend toute l'espace disponible*/
+    padding: 40px; /*on mets qd même 20 px à l'intérieur pour éviter que le texte ne se colle au bord de l'écran*/
+}
+
+label{
+    display: block; /* le libellé prend sa ligne au dessus du champ*/
+    margin-bottom: 6px;/* un petit espace sos le libellé avant la case*/
+    font-weight: bold; /*texte du libellé en gras*/
+}
+
+input{
+    display: block; /*la case prend sa propre ligne*/
+    width:100%; /*elle occupe toute la largeur disponible*/
+    margin-bottom: 20px; /*on mets un espace sous la case avant le llibellé suivant*/
+}
+
+button {
+    display:block; /*le bouton prend sa propre ligne*/
+    width: 100%; /*toute la largeur du formulaire*/
+    padding: 14px; /*espace à l'intérieur ?????*/
+    background-color: #1f7a66;
+    color:white;
+    font-size:16px; /*la taille du texte*/
+    border:none; /*pour retirer la bordure grise par défaut*/
+    border-radius: 10px; /*arrondir les bords*/
+    cursor: pointer; /*le curseur devient une main qd il passe par desus le boutton*/
+}
+
+button:hover {
+    background-color: #186150;
+}
